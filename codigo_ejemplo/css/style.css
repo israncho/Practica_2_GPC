@@ -47,3 +47,18 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilo para la caja de respuesta */
+.response-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilo para los elementos de respuesta */
+.response-item {
+    margin-bottom: 15px;
+}
+

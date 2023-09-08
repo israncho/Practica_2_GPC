@@ -10,17 +10,24 @@ print("<head>")
 print('<link rel="stylesheet" href="/css/style.css">')
 print("</head>")
 print("<body>")
-print("<h1>Hola Mundo</h1>")
+print('<div class="response-box">')
+print("<h1>Respuesta del formulario</h1>")
 
 # Accede a los datos enviados por el formulario
 form = cgi.FieldStorage()
 user = form["user"].value
 password = form["pass"].value
 
-# Imprime los datos en un formato HTML
-print("<p>User:", user, "</p>")
-print("<p>Pass:", password, "</p>")
+# Muestra los datos en una caja de estilo
+print('<div class="response-item">')
+print("<p><strong>User:</strong>", user, "</p>")
+print("</div>")
 
+print('<div class="response-item">')
+print("<p><strong>Pass:</strong>", password, "</p>")
+print("</div>")
+
+print('</div>')  # Cierra la caja de estilo
 print("</body>")
 print("</html>")
 
