@@ -10,7 +10,7 @@ print("<head>")
 print('<link rel="stylesheet" href="/css/style.css">')
 print("</head>")
 print("<body>")
-print('<img src="/images/tu_imagen.jpg" alt="Imagen en la parte superior derecha" class="top-right-image">')
+print('<img src="/images/tu_imagen.jpg" alt="Imagen en la parte superior derecha" class="top-left-image">')
 print('<div class="response-box">')
 print("<h1>Hola mundo</h1>")
 

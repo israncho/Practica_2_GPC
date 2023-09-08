@@ -68,10 +68,10 @@ img {
 }
 
 /* Estilo para la imagen en la parte superior derecha */
-.top-right-image {
+.top-left-image {
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 100px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    max-width: 400px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
     z-index: 1; /* Asegura que la imagen esté en la parte superior de otros elementos */
 }
