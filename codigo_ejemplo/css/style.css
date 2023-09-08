@@ -71,7 +71,7 @@ img {
 .top-left-image {
     position: absolute;
     top: 0;
-    right: 0;
-    max-width: 400px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    left: 0;
+    max-width: 600px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
     z-index: 1; /* Asegura que la imagen esté en la parte superior de otros elementos */
 }
