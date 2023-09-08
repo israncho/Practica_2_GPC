@@ -67,3 +67,11 @@ img {
     font-size: 18px; /* Ajusta el tamaño del texto según tus preferencias */
 }
 
+/* Estilo para la imagen en la parte superior derecha */
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    z-index: 1; /* Asegura que la imagen esté en la parte superior de otros elementos */
+}
