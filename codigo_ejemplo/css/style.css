@@ -62,3 +62,8 @@ img {
     margin-bottom: 15px;
 }
 
+/* Estilo para el texto dentro de la caja de respuesta */
+.response-text {
+    font-size: 18px; /* Ajusta el tamaño del texto según tus preferencias */
+}
+

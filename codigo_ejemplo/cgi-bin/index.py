@@ -18,13 +18,13 @@ form = cgi.FieldStorage()
 user = form["user"].value
 password = form["pass"].value
 
-# Muestra los datos en una caja de estilo
+# Muestra los datos en una caja de estilo con texto más grande
 print('<div class="response-item">')
-print("<p><strong>User:</strong>", user, "</p>")
+print("<p><strong>User:</strong> <span class='response-text'>", user, "</span></p>")
 print("</div>")
 
 print('<div class="response-item">')
-print("<p><strong>Pass:</strong>", password, "</p>")
+print("<p><strong>Pass:</strong> <span class='response-text'>", password, "</span></p>")
 print("</div>")
 
 print('</div>')  # Cierra la caja de estilo
